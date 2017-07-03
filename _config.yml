@@ -1,0 +1,65 @@
+# Site settings
+title: Microsoft Technical Case Studies
+description: >
+  A collection of technical case studies with architecture diagrams, 
+  value stream mapping examples, code, and other artifacts coupled with step by 
+  step details and learning resources. The stories showcase how Microsoft, customers, 
+  and partners are building solutions utilizing Microsoft and open source technologies 
+  to solve real world business challenges that cover small to large enterprises of varying
+  industries around the world.
+author: msdev
+twitter:
+  username: msdev
+logo: images/ms-logo.png
+#social:
+#  name: Ben Balter
+#  links:
+#    - https://twitter.com/BenBalter
+#    - https://www.facebook.com/ben.balter
+#    - https://www.linkedin.com/in/BenBalter
+#    - https://plus.google.com/+BenBalter
+#    - https://github.com/benbalter
+#    - https://keybase.io/benbalter
+#webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+
+email: dcaro@microsoft.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://microsoftapac.github.io" # the base hostname & protocol for your site
+twitter_username: msdev
+github_username:  microsoft
+encoding: utf-8
+use_static_category_list: false # true/false: use true to indicate that site will use 
+                               # the static category list to build the category tree. 
+                               # Use false to indicate the site to build the category 
+                               # tree dynamically using the posts' metadata 
+filters_by_row: 4 # the number of category filters to be accommodated by row in the 
+                    # search section. Changes in the site's CSS is also required to
+                    # change this value.
+use_fixed_header_links: false # true/false: set to true to keep the headers links 
+                    # (the link icon shown next to post's headers to copy the link 
+                    # to the section) always visible, instead of being shown
+                    # on mouse hover
+future: true
+# Build settings
+# markdown: redcarpet
+# highlighter: pygments
+# extensions: [tables fenced_code_blocks]
+
+exclude: [vendor]
+kramdown:
+   input: GFM
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:  
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sticky: false

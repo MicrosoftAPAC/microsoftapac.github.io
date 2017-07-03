@@ -1,0 +1,134 @@
+{% assign useStaticList = site.use_static_category_list %}
+{% assign categories = "" | split: "|" %}
+
+{% if useStaticList == true %}
+    {% assign categoriesDataList = site.data.categoriesStatic %}
+{% else %}
+    {% assign categoriesDataList = site.data.categories %}
+{% endif %}
+
+{% for category in categoriesDataList %}
+    {% if useStaticList == true %}
+        {% assign categoryElements = category.values %}
+    {% else %}
+        {% assign categoryElements = "" | split: "|" %}    
+    
+        {% for post in site.posts %}
+            
+            {% comment %} Convert the post metadata into an array, so it can handle the same way no mather what data type the metadata has {% endcomment %}
+
+            {% assign postDataArray = post[category.metadataField] | join: "##" | split: "##"   %}
+
+            {% for postData in postDataArray %}
+
+                {% if categoryElements contains postData %}
+                {% else %}
+                    {% assign categoryElements = categoryElements | push: postData  %}
+                {% endif %}
+
+            {% endfor %}
+
+        {% endfor %}
+
+    {% endif %}
+
+    {% assign categories = categories | push: categoryElements %}
+
+{% endfor %}
+
+
+{% comment %} 
+Put the categories inside filter rows. It creates a matrix (filterRows) which 
+contains the list of categories to be included on each filter row.
+{% endcomment %}
+
+{% assign filterRows = "" | split: "|" %}
+{% assign count = 0 %}
+{% assign row = "" | split: "|" %}
+{% for category in site.data.categories %}
+    {% if count >= site.filters_by_row %}
+        {% assign count = 0 %}
+        {% assign filterRows = filterRows | push: row %}
+        {% assign row = "" | split: "|" %}
+    {% endif %}
+    {% assign row = row | push: category %}
+    {% assign count = count | plus: 1 %}
+{% endfor %}
+{% if row.size > 0 %}
+    {% assign filterRows = filterRows | push: row %}
+{% endif %}
+
+    <form id="AdvancedSearch" class="form-horizontal" onsubmit="return customSearch.applyFilters(true);">
+
+        <!-- Filter Box -->
+        <div class="row content-row filter-box">
+
+            {% assign firstRow = true %}
+            {% assign i = 0 %}
+            {% for filterRow in filterRows %}
+            <!--Start Row Filters -->
+            <div class="row {% if firstRow %}{% else %}moreFilters{% endif %}">
+                {% for category in filterRow %}
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>{{ category.showAs }}:</label><br>
+                        <div class="dropdown" id="{{ category.name }}Dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span class="fa fa-sort pull-right"></span>
+                                <div class="truncate">Select</div>
+                            </button>
+                            <ul class="dropdown-menu">
+                                {% comment %} Determine if the category should be sorted or not. {% endcomment %}
+                                
+                                {% if category.sorted == true %}
+                                    {% assign items = categories[i] | sort %}
+                                {% else %}
+                                    {% assign items = categories[i] %}
+                                {% endif %}
+                                
+                                <li><a><label class="control control--checkbox">Select All<input type="checkbox" group="{{ category.name }}" name="{{ category.name }}" id="select_all-item-{{ category.name }}"/ value="select-all-{{ category.name }}"><div class="control__indicator"></div></label></a></li>
+                                {% for item in items %}
+                                <li><a><label class="control control--checkbox">{{ item }}<input type="checkbox" group="{{ category.name }}" name="{{ category.name }}" id="item-{{ category.name }}-{{ item }}"/ value="{{ item }}"><div class="control__indicator"></div></label></a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    {% assign i = i | plus: 1 %}
+                {% endfor %}
+            </div>
+            <!--End  Row Filters -->
+                {% assign firstRow = false %}
+            {% endfor %}
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="advanced_filters">
+                        {% if filterRows.size > 1 %}
+                        <a class="text-black filtersToggle" id="showMoreFiltersToggle"><i class="fa fa-caret-right"></i> Show More Filters</a>
+                        <a class="text-black filtersToggle" id="showLessFiltersToggle" style="display:none;"><i class="fa fa-caret-up"></i> Show Less Filters</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right filter-tools">
+                        <a id="resetFilters">Reset</a>
+                        <button class="btn btn-primary" id="applyFilters">Apply Filter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Sort By -->
+        <div class="row content-row sort-by">
+            <div class="col-md-12 sort-by-row">
+                <div class="form-group">
+                    <label>Sort By:</label>
+                    <select class="tcs-select" id="sortBy" name="sortBy">
+                        <option value="featured">Featured</option>
+                        <option value="date">Most Recent</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>

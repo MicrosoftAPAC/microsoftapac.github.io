@@ -1,0 +1,55 @@
+[
+    {
+        "name":"technology",
+        "showAs":"Technology",
+        "metadataField":"categories",
+        "values":[
+            "DevOps",
+            "IoT",
+            "Mobile Application Development with Xamarin",
+            "Azure App Service"
+        ]
+    },
+    {
+        "name":"verticals",
+        "showAs":"Industry Associated with Solution",
+        "metadataField":"verticals",
+        "values":[
+                "Energy",
+                "Manufacturing (Industrial)",
+                "Transportation & Logistics",
+                "Smart Cities",
+                "Agricultural",
+                "Environmental",
+                "Healthcare",
+                "Financial Services",
+                "Retail, Consumer Products & Services",
+                "Communications/Media"
+        ]
+    },
+    {
+        "name":"language",
+        "showAs":"Language",
+        "metadataField":"language",
+        "values":[
+                "English",
+                "German",
+                "Spanish",
+                "French",
+                "Italian",
+                "Japanese",
+                "Korean",
+                "Portuguese",
+                "Russian",
+                "Chinese"
+        ]
+    },
+    {
+        "name":"geolocation",
+        "showAs":"Region",
+        "metadataField":"geolocation",
+        "values":[
+                "TODO: Complete static list"
+        ]
+    }
+]

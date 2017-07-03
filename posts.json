@@ -1,0 +1,19 @@
+---
+---
+
+[
+    {% for post in site.posts %}
+    {
+        "id": "{{ post.id | slugify }}",
+        "categories": {{ post.categories | jsonify }},
+        "author": {{ post.author  | jsonify }},
+        "title": {{ post.title  | jsonify }},
+        "excerpt": {{ post.excerpt  | jsonify }},
+        "verticals": {{ post.verticals | jsonify }},
+        "language": {{ post.language | jsonify }},
+        "geolocation": {{ post.geolocation | jsonify }},
+        "sticky": {{ post.sticky | jsonify }},
+        "content": {{ post.content | strip_html | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

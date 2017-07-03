@@ -1,0 +1,26 @@
+[
+    {
+        "name":"technology",
+        "showAs":"Technology",
+        "metadataField":"categories",
+        "sorted": true
+    },
+    {
+        "name":"verticals",
+        "showAs":"Industry Associated with Solution",
+        "metadataField":"verticals",
+        "sorted": true
+    },
+    {
+        "name":"language",
+        "showAs":"Language",
+        "metadataField":"language",
+        "sorted": true
+    },
+    {
+        "name":"geolocation",
+        "showAs":"Region",
+        "metadataField":"geolocation",
+        "sorted": true
+    }
+]

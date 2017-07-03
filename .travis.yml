@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 5.1.0
+before_scripts:
+  - npm install -g mocha
+  - npm install git
+
+env:
+    - commit = $TRAVIS_COMMIT_RANGE
+
+notification:
+  email:
+    - dcaro@microsoft.com
