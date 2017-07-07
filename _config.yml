@@ -63,7 +63,3 @@ defaults:
       type: posts
     values:
       sticky: false
-
-webrick:
-  headers:
-    X-Frame-Options: DENY
