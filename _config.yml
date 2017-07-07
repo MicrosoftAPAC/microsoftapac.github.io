@@ -1,5 +1,5 @@
 # Site settings
-title: Microsoft Technical Case Studies
+title: Microsoft Asia Technical Case Studies
 description: >
   A collection of technical case studies with architecture diagrams, 
   value stream mapping examples, code, and other artifacts coupled with step by 
@@ -63,3 +63,7 @@ defaults:
       type: posts
     values:
       sticky: false
+
+webrick:
+  headers:
+    X-Frame-Options: DENY
