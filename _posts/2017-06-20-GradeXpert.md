@@ -7,13 +7,14 @@ author-image: "https://aboutme.imgix.net/background/users/g/l/o/glovebox_1497494
 date: 2017-06-10
 categories: [Desktop Bridge]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/2017-06-20-GradeXpert/gradexpert-logo.png" #should be ~350px tall
 excerpt: 
 GradeXpert is a Student Information System, including data management, analytics and reporting, that is an affordable, flexible and fully customizable solution for K-12 schools. Centralize and manage all student data, including any type of assessment & outcome, individual learning plans, student medical details and welfare & behavior notes, attendance, semester reports, digital portfolios, parent communications and much, much more.
 
 As Windows clients are a major part of the user base, GradeXpert wanted a better way to deploy their windows desktop application to schools. The impending release of Windows S has made the potential for running their application as a Windows Store app an attractive proposition. Microsoft was engaged to help GradeXpert to convert their application and aid in submitting it to the Windows Store.
 language: English
 verticals: ["Education"]
+geolocation: [Australia]
 ---
 
 <img alt="GradeXpert" src="{{ site.baseurl }}/images/2017-06-20-GradeXpert/gradexpert-logo.png">
