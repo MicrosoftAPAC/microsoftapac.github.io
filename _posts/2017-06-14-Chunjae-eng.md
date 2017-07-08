@@ -7,7 +7,7 @@ author-link: "#"
 date: 2016-12-08
 categories: [CaaP]
 color: "blue"
-image: "images/chunjae01.jpeg"
+image: "images/Chunjae01.jpeg"
 excerpt: Chunjae Education Inc. is one of the major education publishers in Korea.
 language: [English]
 verticals: [Education]
