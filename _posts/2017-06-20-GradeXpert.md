@@ -2,8 +2,8 @@
 layout: post
 title: "GradeXpert converted their GradeXpert application to a UWP app using the Desktop Bridge."
 author: "Dave Glover, Jordan Knight"
-author-link: "https://about.me/glovebox, http://www.github.com/jakkaj"
-author-image: "https://aboutme.imgix.net/background/users/g/l/o/glovebox_1497494482_205.jpg"
+#author-link: "https://about.me/glovebox, http://www.github.com/jakkaj"
+#author-image: "https://aboutme.imgix.net/background/users/g/l/o/glovebox_1497494482_205.jpg"
 date: 2017-06-10
 categories: [Desktop Bridge]
 color: "blue"
