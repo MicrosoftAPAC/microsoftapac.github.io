@@ -5,12 +5,14 @@ author: "Dae Woo Kim, Hyewon Ryu"
 #author-link: "Add author's Twitter URL here"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-03-07
-categories: [Azure Machine Learning], [Azure Functions]
+categories: [Azure Machine Learning, Azure Functions]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
-excerpt: Hogangnono, top real estate startup, and Microsoft hackfest to improve real estate recommendation for more captivating app users.
+image: "images/2017-03-07-hogangnono/hackfest02.png" #should be ~350px tall
+excerpt: Hogangnono, a top real estate startup, and Microsoft improve real estate recommendations to captivate more app users.
 language: [English]
+geolocation: [Korea]
 verticals: [Real Estate]
+---
 
 Key technologies used  
 - Azure Machine Learning - Matchbox : Implementation of real estate item recommendation service using Machine Learning algorithm  
