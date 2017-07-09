@@ -11,7 +11,7 @@ image: "images/2017-04-20-TechnologyOne/UniBot.PNG"
 excerpt: TechnologyOne teamed up with Microsoft to create a universal language bot to make university enrollment and daily university life easier for international students.  
 language: [English]
 verticals: [Education, Hospitality & Travel]
-geolocation: [Oceania]
+geolocation: [Australia]
 ---
 
 In this article we talk through how TechnologyOne and Microsoft collaborated to build a university bot that allows people to converse in their native language by using terminology they are comfortable with to help make enrollment and university life better. The bot achieves this by using modern conversational platforms coupled with intelligent systems. 
