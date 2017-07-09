@@ -403,7 +403,7 @@ Uri qnamakerUriBase = new Uri("https://westus.api.cognitive.microsoft.com/qnamak
 var builder = new UriBuilder($"{qnamakerUriBase}/knowledgebases/{knowledgebaseId}/generateAnswer");
 
 //Add the question as part of the body
-var postBody = $"{{\"question\": \"{query}\"}}";
+var postBody = $"{ {\"question\": \"{query}\"} }";
 
 //Send the POST request
 using (WebClient client = new WebClient())
