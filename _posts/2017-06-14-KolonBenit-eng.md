@@ -2,7 +2,7 @@
 layout: post
 title: "Kolon Benit Chatbot project"
 author: "YoungWook Kim, HyeWon Ryu"
-author-link: "#"
+#author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date: 2017-06-14
 categories: [CaaS]
@@ -11,7 +11,7 @@ image: "images/KolonBenit01.jpeg"
 excerpt: Kolon Benit is the subsidiary of Kolon group that is one of the primary business group in Korea.
 language: [English]
 verticals: [Enterprise]
-geolocation: [Asia]
+geolocation: [Korea]
 ---
 
 Kolon Benit Hackfest 
