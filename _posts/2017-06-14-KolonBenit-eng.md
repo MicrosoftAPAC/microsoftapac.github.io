@@ -7,7 +7,7 @@ author-link: "#"
 date: 2017-06-14
 categories: [CaaS]
 color: "blue"
-image: "images/KolonBenit01.jpg"
+image: "images/KolonBenit01.jpeg"
 excerpt: Kolon Benit is the subsidiary of Kolon group that is one of the primary business group in Korea.
 language: [English]
 verticals: [Enterprise]
