@@ -7,8 +7,9 @@ date:   2016-05-19
 categories: [IoT]
 color: "blue"
 excerpt: The remote-control system with very legacy device make new business scenario. Also, IoT Hub SDK flexibility make this thing so easy.
-language: The language of the article (e.g.: [English])
+language: [English]
 verticals: Manufacturing & Resources
+geolocation: [Japan]
 ---
 
 - Solution overview
