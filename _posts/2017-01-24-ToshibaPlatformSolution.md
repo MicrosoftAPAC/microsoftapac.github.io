@@ -14,11 +14,6 @@ verticals: [Manufacturing & Resources]
 geolocation: [Japan]
 ---
 
-Begin with an intro statement with the following details:
-
-- Solution overview
- 
-- Key technologies used
 ### Key technologies used 
 - Azure IoT Hub, Azure IoT Gateway SDK 
 - Stream Analytics 
