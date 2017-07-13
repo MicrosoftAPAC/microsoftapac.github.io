@@ -7,13 +7,13 @@ author-link: "https://twitter.com/masota0517"
 date:   2017-02-14
 categories: [Cognitive Services]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
-excerpt: Recurit Communications uses 10M$/year for making advertisement asset like phots and movies. Because the amount of assets are huge, it is difficult for employees to find expected one and they will make similar assets by each projects. For reducing cost and easy access, we developed asset management system with Cognitive Service. When users upload assets, the system automaticaly tagging with Cognitive Service and store data in Cosmos DB. With this solution users can find their expected asset easily and it expect reducing next year cost.
-language: The language of the article (e.g.: [English, Japanese])
-verticals: The vertical markets this article has focus on (e.g.: [Communications/Media])
+image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+excerpt: Recruit Communications uses 10M$/year for making advertisement asset like phots and movies. Because the amount of assets are huge, it is difficult for employees to find expected one and they will make similar assets by each projects. For reducing cost and easy access, we developed asset management system with Cognitive Service. When users upload assets, the system automaticaly tagging with Cognitive Service and store data in Cosmos DB. With this solution users can find their expected asset easily and it expect reducing next year cost.
+language: [English]
+verticals: [Media]
 ---
 
-Marketing company has huge amout of assets like product photos, promotion movies. Recurit Communications costs 10M$/year for making such kind of assets. It's actually huge costs and their exmployee has 2 problems. One problem is users save files in each project's file storage and can't find by others. Another one is hard to find expected asset from these big data. Recruit Communications want to solve this problem and started ***Creative Asset Management project***. In this project we tagged each data with Cognitive Service Computer Vision API and search tagged assets from web application. It makes easy access for users and may reduce costs in next year.
+Marketing company has huge amount of assets like product photos, promotion movies. Recurit Communications costs 10M$/year for making such kind of assets. It's actually huge costs and their exmployee has 2 problems. One problem is users save files in each project's file storage and can't find by others. Another one is hard to find expected asset from these big data. Recruit Communications want to solve this problem and started ***Creative Asset Management project***. In this project we tagged each data with Cognitive Service Computer Vision API and search tagged assets from web application. It makes easy access for users and may reduce costs in next year.
 
 Technologies Used:
 - [Cognitive Services Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
