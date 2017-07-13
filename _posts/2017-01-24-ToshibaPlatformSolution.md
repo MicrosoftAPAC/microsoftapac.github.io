@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "TOSHIBA PLATFORM SOLUTION CORPORATION"
+title:  "Toshiba Platform Solution Corporation"
 author: "Hiroshi Ota"
 author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
-date:   2016-05-19
+date: 2016-05-19
 categories: [IoT]
 color: "blue"
 #image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
-excerpt: Add a short description of what this article is about.
+excerpt: Toshiba Platform Solution Corporation is willing to use the Azure IoT Services to offer widespread services under the title "ToIS IoT Starter Kit" that can be installed quickly, easily, and at low cost for collecting and storing diagnostic information on computers and motherboards for their company's embedded devices and the environmental sensors.
 language: [English]
-verticals: [Manufacturing & Resources])
+verticals: [Manufacturing & Resources]
+geolocation: [Japan]
 ---
 
 Begin with an intro statement with the following details:
@@ -40,7 +41,7 @@ Begin with an intro statement with the following details:
  
 ## Problem statement ##
 
-We began to recognize the problem of this solution cleary by drawing composition of ToPS's solution and service to be provided. 
+We began to recognize the problem of this solution clearly by drawing composition of ToPS's solution and service to be provided. 
 
 [Solution landscape](/images/toshibapfs/solutionlandscape.jpg) 
 
