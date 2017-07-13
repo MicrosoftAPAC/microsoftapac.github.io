@@ -11,6 +11,7 @@ color: "blue"
 excerpt: Microsoft and Alterbooth conducted a joint hackfest to introduce DevOps practices into Alterbooth's new sauce-ordering and customizing service.
 language: [English]
 verticals: [Technology, "Retail, Consumer Products & Services"]
+geolocation: [Japan]
 ---
 
 Microsoft and Alterbooth conducted a joint hackfest to introduce DevOps practices into Alterbooth's new service, "MySauce Factory." The DevOps practices we implemented are:
