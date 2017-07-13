@@ -7,7 +7,7 @@ author-link: "https://twitter.com/kosfuji"
 date: 2017-05-19
 categories: [IoT]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall 
+image: "images/DroneWorks/MembersPic.jpg" #should be ~350px tall 
 excerpt: DroneWorks Inc. worked with Microsoft to build a cloud-based Safety Flight Platform for industrial drones by utilizing Azure IoT Hub, Azure IoT Gateway SDK, Azure Stream Analytics, and other Azure services.
 language: [English]
 verticals: [Other]

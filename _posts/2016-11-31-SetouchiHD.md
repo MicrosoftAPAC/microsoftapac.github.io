@@ -7,7 +7,7 @@ author-link: "#"
 date:   2016-12-05
 categories: [DevOps]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/2016-11-31-SetouchiHD/allmembers.jpg" #should be ~350px tall
 excerpt: Microservices/Mobile Hackfest using Web/Api Apps and VSTS 
 language: English
 verticals: Manufacturing & Transportation

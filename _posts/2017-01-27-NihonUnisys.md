@@ -7,7 +7,7 @@ author-link: "http://twitter.com/hiwatan007"
 date: 2017-05-26
 categories: [IoT]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/2017-01-27-NihonUnisys/NihonUnisys2.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft worked with Nihon Unisys to develop an IoT solution for the manufacturing industry using Azure Data Factory, Azure Machine Learning, and Power BI.
 language: [English]
 verticals: [Manufacturing & Resources]
