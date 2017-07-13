@@ -7,7 +7,7 @@ author-link: "https://blogs.msdn.microsoft.com/ttanaka/"
 date:   2017-05-12
 categories: [Cognitive Services]
 color: "blue"
-image: "images/SIS/header_logo001.gif" width="310"
+image: "images/SIS/header_logo001.gif"
 excerpt: This concierge service bot is designed to recognize customer voices correctly and to converse with customers using natural language. The service sets up its own hypotheses and infers and makes predictions, even when presented with vague questions. Using AI capabilities to recommend products based on customer needs, the service connects to customers in new ways and supports higher employee performance levels. 
 language: English
 verticals: "Retail, Consumer Products & Services"
