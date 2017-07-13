@@ -9,8 +9,9 @@ categories: [Mobile DevOps]
 color: "blue"
 #image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
 excerpt: It took 9 months for developing and launching the original CLOMO MDM Agent app but this Xamarin-based app and Mobile DevOps took only in less than 2 months with 10 times more than the number of functions from the first launch. This means that the release cycle is faster by over 400% and the volume of the source code and engineering productivity are improved by 4,000%
-language: [English])
-verticals: [Other])
+language: [English]
+verticals: [Other]
+geolocation: [Japan]
 ---
 
 **Solution overview**

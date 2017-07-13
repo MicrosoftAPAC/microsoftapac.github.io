@@ -11,6 +11,7 @@ color: "blue"
 excerpt: Saito Kikaku wanted to meet the demand for a Windows Store version of its successful Hidemaru Editor as text editor software. Beginning with communications, Saito Kikaku and Microsoft worked through the conversion process. 
 language: English
 verticals: ["Retail, Consumer Products & Services"]
+geolocation: [Japan]
 ---
 
 <img alt="Hidemaru Editor public" src="{{ site.baseurl }}/images/SaitoKikakuHidemaru/SaitoKikaku.png" width="600">
