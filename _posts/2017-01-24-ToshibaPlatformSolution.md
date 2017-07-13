@@ -7,7 +7,7 @@ author-link: "#"
 date: 2016-05-19
 categories: [IoT]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/toshibapfs/HackFest.jpg" #should be ~350px tall
 excerpt: Toshiba Platform Solution Corporation is willing to use the Azure IoT Services to offer widespread services under the title "ToIS IoT Starter Kit" that can be installed quickly, easily, and at low cost for collecting and storing diagnostic information on computers and motherboards for their company's embedded devices and the environmental sensors.
 language: [English]
 verticals: [Manufacturing & Resources]
