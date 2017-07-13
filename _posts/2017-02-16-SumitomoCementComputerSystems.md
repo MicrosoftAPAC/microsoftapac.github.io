@@ -48,7 +48,7 @@ When the system related to the control panel, and the dot impact printer goes do
 Since the control panel cannot be controlled unless employees go to the factory, employees manually input the order planning in another system after printing data, which caused less work efficiency.
 
 ## Solution and steps ##
- ![DiscussionBoard](/images/2017-02-16-SumitomoCementComputerSystems/00-DiscussionBoard.png")
+ ![DiscussionBoard]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/00-DiscussionBoard.png)
 
 ### Message flow ##
 - The control panel of the liquid concrete factory and the Windows PC are connected by RS-232C, and the PC sends the control data to the control panel upon receiving the shipping instruction from web application on Azure.
@@ -56,7 +56,7 @@ Since the control panel cannot be controlled unless employees go to the factory,
 - Since employees can give the shipping instruction and confirm the status of the control panel through web application, they are able to operate shipping instruction from outside of the factor (It is not limited to operations inside the factory as before).
 - The real control panel is huge, and it is impossible to quickly confirm. So, we use existing emulator.
 
-  ![Architecture Diagram](/images/2017-02-16-SumitomoCementComputerSystems/01-SystemArchitecture.png")
+  ![Architecture Diagram]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/01-SystemArchitecture.png)
 
 ### Technical Components ###
 - Azure IoT Hub
@@ -80,11 +80,11 @@ Since the control panel cannot be controlled unless employees go to the factory,
   - We bring `emulator` that use as productoin test for this time. This is very important that how much additional coding task happened or not.
   - Raspberry Pi II as Prototype. The device has 1 GB of memory, 8 GB of storage and uses line power and Ethernet for connectivity. It is running Windows 10 IoT. They are using the Azure IoT Device SDK and writing their device app in C#.
   - The same code including Serial port read/write library run both PC with `emulator` and Raspberry Pi II. We used USB type Serial Port device in this time.
-  - ![RasPiWithSerialPort](/images/2017-02-16-SumitomoCementComputerSystems/06-RasPiWithSerialPortpng.png")
+  - ![RasPiWithSerialPort]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/06-RasPiWithSerialPortpng.png)
 
 - Azure IoT Hub
   - Device messages sent (less than 1KB packet size, send about 5 times in single control operation, totally 100 message in a day per device)
-  - ![Emulator](/images/2017-02-16-SumitomoCementComputerSystems/02-emulator.png")
+  - ![Emulator]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/02-emulator.png)
 
 ``` cs:IoT-Hub-Device-SDK
 
@@ -116,7 +116,7 @@ Since the control panel cannot be controlled unless employees go to the factory,
 - Azure Stream Analytics Query
   - We need to 2 output for store transaction to database for Billing and real time processing for Web UI.
   - Today, We can't directory reference SQL database table from Stream Analytics, run data copy data to Blob storage job every night via Azure Data Factory.
-  - ![Data Factory job](/images/2017-02-16-SumitomoCementComputerSystems/05-DataFactoryPipelineForStreamAnalytics.png")
+  - ![Data Factory job]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/05-DataFactoryPipelineForStreamAnalytics.png)
 
 ``` sql:StreamAnalytics
 
@@ -154,7 +154,7 @@ FROM
 
 - Web UI
   - There are 2 communication channel. The pre-ordered data come from SQL Database. Real-time control data comes from ASP.NET SignalR via Stream Analytics -> Event Hub -> Azure Functions.
-  - ![Web Console](/images/2017-02-16-SumitomoCementComputerSystems/03-WebUI.png")
+  - ![Web Console]({{site.baseurl}}/images/2017-02-16-SumitomoCementComputerSystems/03-WebUI.png)
 
 - Message bus By Event Hub and Azure Functions
   - EventHub Trigger.
