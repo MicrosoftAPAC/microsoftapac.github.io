@@ -7,7 +7,7 @@ author-link: "#"
 date:   2016-11-02
 categories: IoT
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/TyreExpress/TyreExpress7.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft teamed up with Tyre Express to connect their tire monitoring solution to the Azure cloud. 
 language: English
 verticals:  Transportation & Logistics
