@@ -7,7 +7,7 @@ author-link: "#"
 date:   2017-04-06
 categories: IoT, Azure Function
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/UncannyVision/UncannyVision3.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft teamed up with Uncanny Vision to connect their smart surveillance camera solution to the Azure cloud. 
 language: English
 verticals: Security/Surveillance

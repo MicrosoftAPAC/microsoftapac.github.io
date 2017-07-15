@@ -7,7 +7,7 @@ author-link: "#"
 date:   2017-05-02
 categories: [Power BI Embedded]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/falconbrickpbieimages/fbpbie1.png" #should be ~350px tall
 excerpt: Microsoft worked with FalconBrick to design, deploy, and render Power BI Embedded reports, reducing management time and enabling future cross-platform integration. 
 language: English
 verticals:  ["Real Estate, Construction and Infrastructre Industry"]

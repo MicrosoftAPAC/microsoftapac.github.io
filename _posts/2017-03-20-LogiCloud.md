@@ -7,7 +7,7 @@ author-link: "https://twitter.com/s_gandhali"
 date: 2017-04-27
 categories: [Power BI Embedded]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/LogiCloud/LogiCloud4.png" #should be ~350px tall
 excerpt: LogiCloud and Microsoft worked together to bring an interactive dashboard to its supply-chain collaboration platform with the use of Power BI Embedded. 
 language: English
 verticals:  [Transportation & Logistics]

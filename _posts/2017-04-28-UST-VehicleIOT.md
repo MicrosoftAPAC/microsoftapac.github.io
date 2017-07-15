@@ -7,7 +7,7 @@ author-link: "http://twitter.com/automationnext"
 date: 2017-04-19
 categories: [IOT, Azure functions]
 color: “blue”
-#image: “{{ site.baseurl }}/images/UST/company.png” #should be ~350px tall
+image: “images/UST/company.png” #should be ~350px tall
 excerpt: UST Global creates a Vehicle tracking system to monitor and generate alerts from vehicles using sensors using Azure in real time.
 language: English
 verticals: Transportation

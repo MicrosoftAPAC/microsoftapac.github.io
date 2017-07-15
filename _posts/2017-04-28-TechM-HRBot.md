@@ -7,7 +7,7 @@ author-link: "http://twitter.com/automationnext"
 date:   2017-04-19
 categories: [Conversations as a Platform, Cognitive Services]
 color: "blue"
-#image: "{{ site.baseurl }}/images/TechM/TechM.png" #should be ~350px tall
+image: "images/TechM/TechM.png" #should be ~350px tall
 excerpt: Tech Mahindra develops a conversational Bot HR Bot for internal company employees to connect and get relevant Human Resource related information in real time.
 language: English
 verticals: [Human Resource]
