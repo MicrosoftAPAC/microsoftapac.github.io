@@ -2,16 +2,16 @@
 layout: post
 title:  "Extending CRM solution on E-commerce website with Bot Framework and Cognitive Services"
 author: "William Dam, Delon Yau"
-author-link: "Add URL for author's Twitter account here"
+#author-link: "Add URL for author's Twitter account here"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
-date:   2017-03-26
-categories: [Bot Framework and Cognitive Services]
+date: 2017-03-26
+categories: [Bot Framework,Cognitive Services]
 color: "blue"
-#image: "{{site.baseurl}}/images/CoreMinderImages/logo.png" #should be ~350px tall
-excerpt: Microsoft work with CoreMinder to extend its CRM Ecommerce platform solution with CaaP
+image: "images/CoreMinderImages/HighLevelArchDigitalFormat.JPG" #should be ~350px tall
+excerpt: Microsoft works with CoreMinder to extend its CRM Ecommerce platform solution with CaaP
 language: English
 verticals: Retail, Consumer Products & Services
-geolocation: Hong Kong
+geolocation: [Hong Kong]
 ---
  
 **Solution overview:** 
