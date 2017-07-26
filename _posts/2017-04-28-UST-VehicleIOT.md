@@ -5,7 +5,7 @@ author: "Ritesh Modi"
 author-link: "http://twitter.com/automationnext"
 #author-image: “{{ site.baseurl }}/images/UST/ritesh.jpg”
 date: 2017-04-19
-categories: [IOT, Azure functions]
+categories: [IoT, Azure functions]
 color: "blue"
 image: "images/UST/company.png" #should be ~350px tall
 excerpt: UST Global creates a Vehicle tracking system to monitor and generate alerts from vehicles using sensors using Azure in real time.

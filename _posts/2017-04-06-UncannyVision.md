@@ -5,7 +5,7 @@ author: "Gandhali Samant"
 author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-04-06
-categories: IoT, Azure Function
+categories: [IoT, Azure Functions]
 color: "blue"
 image: "images/UncannyVision/UncannyVision3.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft teamed up with Uncanny Vision to connect their smart surveillance camera solution to the Azure cloud. 
