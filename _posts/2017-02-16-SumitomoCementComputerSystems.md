@@ -2,11 +2,11 @@
 layout: post
 title:  "Sumitomo Cement Computer Systems Co., Ltd"
 author: "Daiyu Hatakeyama"
-author-link: "# https://twitter.com/dahatake"
+author-link: "https://twitter.com/dahatake"
 date:   2016-05-19
 categories: [IoT]
 color: "blue"
-image: "images/2017-02-16-SumitomoCementComputerSystems/RasPiWithSerialPortpng.png"
+image: "images/2017-02-16-SumitomoCementComputerSystems/01-SystemArchitecture.png"
 excerpt: The remote-control system with very legacy device make new business scenario. Also, IoT Hub SDK flexibility make this thing so easy.
 language: [English]
 verticals: Manufacturing & Resources

@@ -7,7 +7,7 @@ author-link: "#"
 date: 2017-02-09
 categories: [IoT, Azure App Service, Azure Functions]
 color: "blue"
-image: "images/TofugearImages/feat_tofugear-logo.jpg"
+image: "images/TofugearImages/tofugear-logo.jpg"
 excerpt: Tofugear, an IoT startup, worked with Microsoft to re-architect its Omnitech retail platform solution, gaining both scalability and a dashboard for improved customer analytics.
 language: [English]
 verticals: [Retail & Consumer Goods]
