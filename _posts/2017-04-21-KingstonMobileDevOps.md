@@ -7,7 +7,7 @@ author-link: "https://github.com/ericsk"
 date: 2017-04-21
 categories: [Mobile DevOps]
 color: "blue"
-image: "images/Kingston/feat_vsm_team.jpg"
+image: "images/Kingston/vsm_team.jpg"
 excerpt: "Kingston Technology wants to ensure the quality of their Xamarin apps and efficiently deliver the apps to their employees. Visual Studio Team Services enhances their process and easily integrates with MacinCloud, Xamarin Test Cloud, and HockeyApp."
 verticals: [Discrete Manufacturing]
 language: [English]

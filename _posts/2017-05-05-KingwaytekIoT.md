@@ -7,7 +7,7 @@ author-link: "https://twitter.com/ericsk"
 date: 2017-05-05
 categories: [IoT]
 color: "blue"
-image: "images/KingwaytekIoT/feat_discussion.jpg"
+image: "images/KingwaytekIoT/discussion.jpg"
 excerpt: KingwayTek, the number one navigation and map service provider in Taiwan, teamed up with Microsoft to develop a new personalized driving experience service. 
 language: [English]
 verticals: [Logistics]

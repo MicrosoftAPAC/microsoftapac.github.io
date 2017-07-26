@@ -7,7 +7,7 @@ author-link: "https://github.com/ericsk"
 date: 2017-03-21
 categories: [Azure App Service, Azure Functions]
 color: "blue"
-image: "images/KingwayTekAzureFunctions/feat_kwfuncapp.png"
+image: "images/KingwayTekAzureFunctions/kwfuncapp.png"
 excerpt: "KingwayTek, the top navigation and map-service provider in Taiwan, is developing a personalized driving-experiences system. With Microsoft, they identified the appropriate Azure services to enhance data flow."
 language: [English]
 verticals: [Logistics]
