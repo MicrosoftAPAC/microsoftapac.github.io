@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Extending CRM solution on E-commerce website with Bot Framework and Cognitive Services"
 author: "William Dam, Delon Yau"
