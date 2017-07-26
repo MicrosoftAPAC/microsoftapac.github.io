@@ -7,7 +7,7 @@ author-link: "https://blogs.msdn.microsoft.com/shozoa/"
 date: 2017-05-02
 categories: [Desktop Bridge]
 color: "blue"
-#image: "{{ site.baseurl }}/{{ site.baseurl }}/images/SaitoKikakuHidemaru/imagename.png" #should be ~350px tall
+image: "images/SaitoKikakuHidemaru/SaitoKikaku.png" #should be ~350px tall
 excerpt: Saito Kikaku wanted to meet the demand for a Windows Store version of its successful Hidemaru Editor as text editor software. Beginning with communications, Saito Kikaku and Microsoft worked through the conversion process. 
 language: English
 verticals: ["Retail, Consumer Products & Services"]

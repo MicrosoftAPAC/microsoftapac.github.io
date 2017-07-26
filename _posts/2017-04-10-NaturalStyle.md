@@ -7,7 +7,7 @@ author-link: "http://twitter.com/embedded_george"
 date:   2016-05-19
 categories: [IoT]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/2017-04-10-NaturalStyle/HackFest.png" #should be ~350px tall
 excerpt: It is an IoT solution using low power consumption devices and LTE lines. This solution is a case of utilizing it in a solution to prevent animal damage. 
 language: English
 verticals: [Public Sector, Environmental, Other]

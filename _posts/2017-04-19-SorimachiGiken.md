@@ -7,7 +7,7 @@ author-link: "#"
 date:   2017-04-20
 categories: Xamarin
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/SorimachiGiken/1allmember.png" #should be ~350px tall
 excerpt: New versions of the POS and CRM packages in operation on-premise optimized for Xamarin and Microsoft Azure PaaS.
 language: English
 verticals:  Retail
@@ -29,7 +29,7 @@ In this HackFest, we helped them move their Xamarin Native resources into Xamari
 [Sorimachi Giken Co., Ltd.](http://www.s-giken.co.jp/corpinfo/) is an independent company developing our business with in-house technology and our own brand of products. We provide system solutions for companies in the distribution and retail sectors, develop original products, and create new business and products in partnership with companies specialized in the e-money and mobile industries using cutting-edge technology. We participate in many IT-related committees, and we are a coordinating member of initiatives aimed at the domestic and international standardization of technology such as e-money to facilitate business that benefits society as a whole.
 
 
-![People](../images/SorimachiGiken/1allmember.png)
+![People]({{ site.baseurl }}/images/SorimachiGiken/1allmember.png)
 
 ## Problem statement ##
 We currently provide services centered around single-tenant applications to medium and large-scale customers. However the advent of technologies such as Amazon Go has intensified competition in the POS (Point of Sale) industry, so we feel that it will become increasingly difficult to expand our business using conventional development and operation techniques going forward.
@@ -42,17 +42,17 @@ We also provide existing iOS and Android tablet applications implemented using t
 
 
 For small-scale users, we provide reasonably-priced multi-tenant solutions with only simple functions. Here is a diagram. In terms of the front end, we provide Web Applications for PC and Smart Phone to do the routinized word. And also we provide Xamarin Applications for POS tablets. It provides rich, easy-to-use applications that support multiple devices (iOS, Android) using Xamarin.Forms and sends a bunch of requests depending on the number of customers to Event Hubs. We believe Event Hubs can handle it.
-![Arch](../images/SorimachiGiken/3smallarch.png)
+![Arch]({{ site.baseurl }}/images/SorimachiGiken/3smallarch.png)
 
 For large-scale users, we add scalability and data analysis functions.
  It produces sales forecasts by performing regression analysis in Azure Machine Learning using accumulated data. Recommend the best products for customers. Accumulated data obtained from devices along with internal company data in the Azure SQL Data Warehouse using Azure Data Factory and also enable end users to analyze data themselves using Power BI. Additionally, it sends notifications about the status of store congestion in real time using the Cognitive Services Computer Vision API.
-![Arch](../images/SorimachiGiken/4.bigarch.png)
+![Arch]({{ site.baseurl }}/images/SorimachiGiken/4.bigarch.png)
  
 
 ## Technical delivery ##
 We selected Xamarin.Forms to enable more efficient cross-platform development and maintenance, and we were able to share source code between platforms. The appearance of the standard controls is also sometimes different depending on the version of Android used, but we circumvented this issue using a custom renderer. As a result, we were able to share close to 60% of the code through Hackfest with Microsoft, which we believe will enable us to swiftly handle both new development and changes to specifications.
 
-![People](../images/SorimachiGiken/5hacking.png)
+![People]({{ site.baseurl }}/images/SorimachiGiken/5hacking.png)
 
 
 Now let’s take a deep dive into the solution technical details. They have POS system. The entire system consists of three systems below. 
@@ -61,11 +61,11 @@ Now let’s take a deep dive into the solution technical details. They have POS 
 - Tablet POS: sales, payment (settlement) system Native application 
 
 They were considering Table POS moving Xamarin.iOS resources into Xamarin Forms so that they can share PCL resource among iOS project, Android project and UWP project. So we focused on Tablet POS system with Xamarin Forms. We wanted to share codes using PCL as much as possible. The architecture diagram is below.
-![PCL](../images/SorimachiGiken/9PCLArc.PNG)
+![PCL]({{ site.baseurl }}/images/SorimachiGiken/9PCLArc.PNG)
 
 
 However,  some features such as 'System.IO.File.GetLastWriteTime' are not included in PCL as shared code. So we decided to make wrapper module to maximize shared codes. The architecture diagram is below.
-![PCL](../images/SorimachiGiken/8PCL.png)
+![PCL]({{ site.baseurl }}/images/SorimachiGiken/8PCL.png)
 Here is the sample code we built.
 [https://github.com/chomado/PluginSample](https://github.com/chomado/PluginSample)
 
@@ -114,7 +114,7 @@ namespace AssemblyTimeStamp
 ```
 
 As a result, we developed following UI using Xamarin Forms. 
-![PCL](../images/SorimachiGiken/10UXPOS.PNG)
+![PCL]({{ site.baseurl }}/images/SorimachiGiken/10UXPOS.PNG)
 
 
 
@@ -124,7 +124,7 @@ We are sharing the sample codes below.
 
 [https://github.com/daisukei777/HSD](https://github.com/daisukei777/HSD) 
 
-![People](../images/SorimachiGiken/6hacking.png)
+![People]({{ site.baseurl }}/images/SorimachiGiken/6hacking.png)
 
 
 ## Conclusion ##
