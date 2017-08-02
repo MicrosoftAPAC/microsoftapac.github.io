@@ -62,7 +62,7 @@ The Uncanny libraries are installed on the Surveillance camera. The typical hard
 
 *Figure 1: Typical Hardware Configuration*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision1.png)
+![1]( {{ site.baseurl }}/images/UncannyVision/UncannyVision1.png)
 
 Uncanny Vision software is installed in the camera and it monitors processes the video in real time. The machine learning algorithm detects patterns in the Video. E.g. In a Bank ATM, if someone is removing money and moving out in say 4-5 minutes is a normal behaviour. But if a person is detected in bending position and in that position for too long, if someone blocks the camera or if a person is detected waving hands and agitated that is a behaviour that needs an alarm raised. Uncanny Vision uses machine learning to detect these normal vs. Abnormal behaviours. If any unwanted/abnormal behavior is detected in camera using the Uncanny Vision libraries then related data, such as the time and location of the camera will be sent to Azure IOT hub in JSON format. (The IOT hub will not continuously receive data but only when any unwanted behavior is detected.) An Azure stream analytics job will process the data and send a message to Azure Event Hub. (Currently stream analytics job is not doing any aggregation or pattern detection, its being used as a connector to Event hub as well as to store the data in SQL database for Visualization. They wanted the job also as a placeholder for filtering events or aggregating those over a window in future as the team does not want to change setup later). 
 When the message reaches Azure Event Hub it triggers the Azure Function which reads the payload data and sends it to Azure logic app using HTTP Request. Azure logic App is triggered by HTTP request trigger and it then reads the payload data and activates Twilio connector to send SMS alert.
@@ -78,7 +78,7 @@ After the connection to IoT hub was successfully established, a simple end to en
 
 *Figure 2: Data insertion architecture*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision2.png)
+![2]( {{ site.baseurl }}/images/UncannyVision/UncannyVision2.png)
 
 **Step 4: Configuring IOT Hub and Stream Analytics**
 
@@ -87,11 +87,11 @@ The IOT Hub connection using Java SDK is shown in Figure 4 below.The Java SDK us
 
 *Figure 3– Qualcomm camera with Uncanny Vision Software installed on it*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision3.png)
+![3]( {{ site.baseurl }}/images/UncannyVision/UncannyVision3.png)
 
 *Figure 4– Call from Java SDK to Azure IOT Hub*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision4.png)
+![4]( {{ site.baseurl }}/images/UncannyVision/UncannyVision4.png)
 
  
 
@@ -99,7 +99,7 @@ Any time any abnormal behavior is detected in the camera, the data regarding tha
 
 *Figure 5 – Stream Analytics inputs and outputs topology*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision5.png)
+![5]( {{ site.baseurl }}/images/UncannyVision/UncannyVision5.png)
 
 Here is a sample JSON Input
 
@@ -159,7 +159,7 @@ When Uncanny Vision team was evaluating different Azure services for building th
 
 *Figure 6 – Event Hub trigger to Azure Function*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision6.png)
+![6]( {{ site.baseurl }}/images/UncannyVision/UncannyVision6.png)
 
 We decided to use Azure function here as that would enable us to connect to Logic app for different connectors (sms/email) as well as give us the flexibility to add different alert mechanisms in future. The Uncanny Vision team also decided to add the functionality for saving generated alerts in blob storage for logging mechanism. We thought Azure Functions is good fit here as it will give the development team the flexibility to select the incoming trigger and since it has consumption-based pricing and scalibility options which will help in managing the cost and performance. 
 
@@ -205,7 +205,7 @@ Github link - https://github.com/gsamant/IOTEndtoEndDemo
 
 *Figure 7 – Azure Logic app setup to generate sms alert*
 
-![]( {{ site.baseurl }}/images/Uncanny Vision/UncannyVision7.png)
+![7]( {{ site.baseurl }}/images/UncannyVision/UncannyVision7.png)
 
 
 **Step 6: Device demo videos** 
