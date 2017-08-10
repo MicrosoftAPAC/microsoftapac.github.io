@@ -7,7 +7,7 @@ author-link: "https://twitter.com/Deananth, https://twitter.com/PrachiKushwah"
 date:   2016-09-01
 categories: [Xamarin, Azure]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "{{ site.baseurl }}/images/Xamarin-Snapbizz/dashboard23.png" #should be ~350px tall
 excerpt: Snapbizz with the help of Microsoft ported all the features of their Android app to Windows App using Xamarin as Middle Tier to support cross platform code sharing along with changes planned for version 2.0 of SnapBizz Android App making it GST compliant.
 language: [English]
 verticals: ["Retail, Consumer Products & Services"]
@@ -90,7 +90,7 @@ The SnapBizz team set out to consolidate  the Billing, Inventory, Push Offer and
 ### Targeting Cross Platform ###
 To enable code sharing for all platforms, the solution was re-architected using SOLID Principles ( Single-responsiblity, Open-closed, Liskov substitution, Interface segregation, Dependency Inversion ) of Object Oriented Development along with Common Patterns Like MVVM, Dependency Injection, Inversion of Control (IoC) achieving 75% code reuse.
 
-  ![Code Sharing across Platforms]({{ site.baseurl }}/images/Xamarin-Snapbizz/codesharing1.png)
+![Code Sharing across Platforms]({{ site.baseurl }}/images/Xamarin-Snapbizz/codesharing1.PNG)
 
 Code is organized by using Shared Projects in Visual Studio and a Platform Specific project for each targeted platform. The solution includes UWP App for Windows 10, Xamarin.Android App for Android, WPF Desktop App for Windows 8.1 and Below, and Shared Project which has shared code. 
 
@@ -112,12 +112,12 @@ From Shared Code these interfaces were resolved with the help of MVVMCross and u
 
   ![3]({{ site.baseurl }}/images/Xamarin-Snapbizz/datagram5.png)
 
-![4]({{ site.baseurl }}/images/Xamarin-Snapbizz/diag6.png)
+![4]({{ site.baseurl }}/images/Xamarin-Snapbizz/diag6.PNG)
 
 ### Multiple POS (Point of Sale) ###
 For running Multiple POS (Point of Sale) in a store, a retail organization could have a mixed set of Tablet Devices. For example, a store could have only Windows 10, only Android or a combination of Windows and Android devices. One of the devices will be working as a local server and other devices will be syncing their data to server. This required implementing sync between different platforms. i.e. a Windows device is configured as server whereas multiple android and windows devices are configured as client.
 
-![5]({{ site.baseurl }}/images/Xamarin-Snapbizz/localserver7.png)
+![5]({{ site.baseurl }}/images/Xamarin-Snapbizz/localserver7.PNG)
 
 Sync was implemented by Hosting REST API’s in a separate process on the device running as server. Since the end users will not be having a local administrator available and to keep the maintenance cost low, REST server is discovered using UDP(User Datagram Protocol) Discovery. i.e. each device sends a UDP Broadcast on the network to discover which device is configured as server. Server device responds with a UDP Message telling its IP address to all other devices. Client devices then starts sending updated data to server using REST Messages. 
 Implementing REST Client and Server was easier with C# .NET and Xamarin support for Microsoft HttpClient Libraries and shared code was used in REST Client implementation for all platforms. 
@@ -128,7 +128,7 @@ Implementing REST Client and Server was easier with C# .NET and Xamarin support 
  SnapBizz App provides a digital signage solution along with POS (Point of Sale) application. Using this solution, a retailer can project offers and discounts over one or more LED TV’s within store. The same infrastructure is used by SnapBizz to advertise specific brand campaigns within stores. This required integration of Multiple Display Technologies: including Miracast, DLNA and Android TV. 
 SnapBizz App on Windows or Android Maintains a list of Store Offers which are required to be projected over LED’s. It also downloads content from cloud related to brand campaigns. C#, .NET and Xamarin were used to implement shared logic for projecting these offers and campaigns to screens. 
 
-![7]({{ site.baseurl }}/images/Xamarin-Snapbizz/localserver8.png)
+![7]({{ site.baseurl }}/images/Xamarin-Snapbizz/localserver8.PNG)
 
 Implementation was done using Dependency Injection and IoC (Inversion of Control). Single interface which provides the logic of pushing store offers and campaigns to LED’s
 
@@ -148,7 +148,7 @@ When a user asked for an inventory product to be synced with LED, UDP Discovery 
 The app required printing capability and stores can have different kind of thermal printers including USB or Bluetooth. Most of the USB Printers had a special Android SDK. Same was true with Payment Providers. They had an Android SDK written in Java. 
 Java SDK’s were used without having to re-write their SDK’s for Xamarin. For this Xamarin Binding Projects was created, which provided a Wrapper around existing Android Java Libraries and could be used from C# and .NET. There Binding Libraries were used using same Dependency Injection and IoC pattern from Shared Code Base. 
 
-![10]({{ site.baseurl }}/images/Xamarin-Snapbizz/binding14.png)
+![10]({{ site.baseurl }}/images/Xamarin-Snapbizz/binding14.PNG)
 
 ![Android App with JIO Payment Device and USB Printer]({{ site.baseurl }}/images/Xamarin-Snapbizz/jio15.png)
 
@@ -156,7 +156,7 @@ Java SDK’s were used without having to re-write their SDK’s for Xamarin. For
 ### User Interface, Views & Other Components ###
 One of the major requirements was that the app should work on low end devices and the user interface should be consistent across devices- both windows and android with 100% feature parity.  User interface was implemented using native UI Languages for each platform. XAML for Windows UWP, AXML for Android. All views were created separately and the whole middle tier of application was re-used including database, backend services, models (Business Logic, Role Based Access Control), and other infrastructure services like logging and application pre-emptive maintenance, security etc. 
 
-![11]({{ site.baseurl }}/images/Xamarin-Snapbizz/components16.png)
+![11]({{ site.baseurl }}/images/Xamarin-Snapbizz/components16.PNG)
 
 
 ### Database & Offline ###
