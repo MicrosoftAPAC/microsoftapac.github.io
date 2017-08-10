@@ -72,7 +72,7 @@ The following image captures the architecture that was built during the hackfest
 
 *ReportBee Bot Solution Architecture*
 
-![ReportBee Bot Solution Architecture]({{ site.baseurl }}/images/ReportBee/architecture.png)
+![ReportBee Bot Architecture]({{ site.baseurl }}/images/ReportBee/architecture.png)
 
 
 #### The Bot and Cognitive Services
@@ -121,7 +121,9 @@ Enhanced and new features can now be delivered through the Bot only and the Repo
 #### The Bot Demo
 
 The video demo of Bot is available at the link below
-[![ReportBee Demo Video]({{site.baseurl}}/images/ReportBee/demovideosnap.JPG)](https://aka.ms/ReportBeebotvideo "ReportBee Bot Demo Video")
+![ReportBee Demo Video]({{site.baseurl}}/images/ReportBee/demovideosnap.JPG)
+
+[WATCH HERE - ReportBee Bot Demo Video](https://aka.ms/ReportBeebotvideo)
 
 #### Measurable impacts
 
