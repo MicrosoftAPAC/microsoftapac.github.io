@@ -121,16 +121,17 @@ Enhanced and new features can now be delivered through the Bot only and the Repo
 #### The Bot Demo
 
 The video demo of Bot is available at the link below
-![ReportBee Demo Video]({{site.baseurl}}/images/ReportBee/demovideosnap.JPG)
 
 [WATCH HERE - ReportBee Bot Demo Video](https://aka.ms/ReportBeebotvideo)
+
+![ReportBee Demo Video]({{site.baseurl}}/images/ReportBee/demovideosnap.JPG)
 
 #### Measurable impacts
 
 - The Bot in principal mobile app is to be released for 15 top schools in phase 1 and will be rolled out to others after taking important feedback from the userbase.
 - The Bot was also showcased at the event *.ai and was very well received, following is a picture taken during the event
 
-![ReportBee at *.ai]({{site.baseurl}}/images/ReportBee/ReportBee-Fud2017.jpg)
+![ReportBee at *.ai]({{site.baseurl}}/images/ReportBee/Reportbee-Fud2017.jpg)
 
 - The ReportBee bot is expected to run in 720+ schools with as many principals, 7000 + teachers and more than 35000 students.
 
