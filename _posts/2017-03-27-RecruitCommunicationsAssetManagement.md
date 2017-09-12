@@ -10,7 +10,7 @@ color: "blue"
 image: "images/RcoAssetManagement/Architecture.png" #should be ~350px tall
 excerpt: Recruit Communications uses 10M$/year for making advertisement asset like phots and movies. Because the amount of assets are huge, it is difficult for employees to find expected one and they will make similar assets by each projects. For reducing cost and easy access, we developed asset management system with Cognitive Service. When users upload assets, the system automaticaly tagging with Cognitive Service and store data in Cosmos DB. With this solution users can find their expected asset easily and it expect reducing next year cost.
 language: [English]
-verticals: [Media]
+verticals: [Media & Cable]
 geolocation: [Japan]
 ---
 

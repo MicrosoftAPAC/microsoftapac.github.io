@@ -5,12 +5,12 @@ author: "YoungWook Kim, HyeWon Ryu"
 #author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date: 2017-06-14
-categories: ["Bot Framework"]
+categories: [Bot Framework]
 color: "blue"
 image: "images/KolonBenit05.png"
 excerpt: Kolon Benit is the subsidiary of Kolon group that is one of the primary business group in Korea.
 language: [English]
-verticals: [Enterprise]
+verticals: [Government]
 geolocation: [Korea]
 ---
 

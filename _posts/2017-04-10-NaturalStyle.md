@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2017-04-10-NaturalStyle/HackFest.png" #should be ~350px tall
 excerpt: It is an IoT solution using low power consumption devices and LTE lines. This solution is a case of utilizing it in a solution to prevent animal damage. 
 language: English
-verticals: [Public Sector, Environmental, Other]
+verticals: [Government]
 geolocation: [Japan]
 ---
 

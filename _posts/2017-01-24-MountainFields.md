@@ -9,7 +9,7 @@ categories: [IoT]
 color: "blue"
 image: "images/2017-01-24-MountainFields/D2CMessaging.jpg"
 excerpt: Recently Mountain Fields is joining in a start-up business for nursing and personal care facility. They hoped to accelerate development of cloud solution with IoT Hub and other Microsoft IoT services.
-verticals: [Healthcare]
+verticals: [Health]
 language: English
 geolocation: [Japan]
 ---

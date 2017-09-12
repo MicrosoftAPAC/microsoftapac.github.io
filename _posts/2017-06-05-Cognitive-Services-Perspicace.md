@@ -10,7 +10,7 @@ color: "blue"
 image: "images/Perspicace/Architecture.png" #should be ~350px tall
 excerpt: The Smart Home vendor Perspicace leverages Microsoft Cognitive Services and develops its hardware and service to provide an intelligent house manager in your house. The house manager is able to see you, listen and talk to you. She can also understand your emotion, intents and provide assistance in every room in your house.
 language: English
-verticals: Consumer Products & Services
+verticals: Retail & Consumer Goods
 geolocation: China
 #permalink: /<page-title>.html Use this section to set a custom URL for your page. The value set in this setting will be added to the base URL. For example if you set "/mycustomurl.html", your URL will be "https://microsoft.github.io/techcasestudies/mycustomurl.html"
 ---

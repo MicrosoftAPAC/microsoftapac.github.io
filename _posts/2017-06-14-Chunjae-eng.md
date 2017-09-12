@@ -5,7 +5,7 @@ author: "YoungWook Kim, Hyewon Ryu"
 author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date: 2016-12-08
-categories: [CaaP]
+categories: [Bot Framework]
 color: "blue"
 image: "images/Chunjae01.jpeg"
 excerpt: Chunjae Education Inc. is one of the major education publishers in Korea.

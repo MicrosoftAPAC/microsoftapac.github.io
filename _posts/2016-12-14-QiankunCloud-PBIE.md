@@ -7,7 +7,7 @@ categories: [Power BI Embedded]
 color: "blue"
 image: "images/2017-06-17-QiankunCloud-PBIE/Hackfest.jpg"
 excerpt: Working together with Microsoft, QiankunCloud integrated Power BI Embedded into its SaaS school managment solution, to give customers full information about schools' sales and marketing.
-verticals: [Retail]
+verticals: [Retail & Consumer Goods]
 language: [English]
 geolocation: [China]
 ---

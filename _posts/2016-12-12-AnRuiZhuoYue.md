@@ -10,7 +10,7 @@ color: "blue"
 image: "images/AnRuiZhuoYue/Architecture.png" #should be ~350px tall
 excerpt: Microsoft teamed up with AnRuiZhuoYue, digital marketing provider, to develop an intelligent conference management system with face registration and check-in functions. This system's frontend is based on Wechat App, as Wechat is the most popular digital marketing channel in China.  
 language: [English]
-verticals: [Digital Marketing]
+verticals: [Entertainment, Media & Cable]
 geolocation: [China]
 ---
 WeChat is the center of digital marketing strategy in China. It has more than 500 million users, of which more than 50% open it 10 times a day. 

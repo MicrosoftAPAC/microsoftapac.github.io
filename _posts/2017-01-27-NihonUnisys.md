@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2017-01-27-NihonUnisys/NihonUnisys2.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft worked with Nihon Unisys to develop an IoT solution for the manufacturing industry using Azure Data Factory, Azure Machine Learning, and Power BI.
 language: [English]
-verticals: [Manufacturing & Resources]
+verticals: [Process Mfg & Resources]
 ---
 
 Nihon Unisys is a system integrator in the manufacturing industry who would like to propose creating a standard method for an IoT solution by using Azure IoT Suite. The solution would use Bluetooth devices to collect data through their Azure IoT Hub, with data being analyzed by Azure Machine Learning and visualized by Power BI.

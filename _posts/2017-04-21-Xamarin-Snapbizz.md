@@ -5,12 +5,12 @@ author: "Deepthi Anantharam, Prachi Kushwah"
 author-link: "https://twitter.com/Deananth, https://twitter.com/PrachiKushwah"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2016-09-01
-categories: [Xamarin, Azure]
+categories: [Mobile Application Development with Xamarin]
 color: "blue"
 image: "{{ site.baseurl }}/images/Xamarin-Snapbizz/dashboard23.png" #should be ~350px tall
 excerpt: Snapbizz with the help of Microsoft ported all the features of their Android app to Windows App using Xamarin as Middle Tier to support cross platform code sharing along with changes planned for version 2.0 of SnapBizz Android App making it GST compliant.
 language: [English]
-verticals: ["Retail, Consumer Products & Services"]
+verticals: [Retail & Consumer Goods]
 geolocation: India
 ---
 

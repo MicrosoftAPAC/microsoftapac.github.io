@@ -10,7 +10,7 @@ color: "blue"
 image: "images/TechoneGlobal/techone_team.JPG" #should be ~350px tall
 excerpt: Tech One Global and Microsoft build a concierge bot-as-a-service to answer generic queries.
 language: [English]
-verticals: ["Retail, Consumer Products & Services"]
+verticals: [Retail & Consumer Goods]
 geolocation: [Philippines]
 ---
 

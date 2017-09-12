@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2016-11-31-SetouchiHD/allmembers.jpg" #should be ~350px tall
 excerpt: Microservices/Mobile Hackfest using Web/Api Apps and VSTS 
 language: English
-verticals: Manufacturing & Transportation
+verticals: [Logistics, Discrete Manufacturing]
 geolocation: [Japan]
 ---
 

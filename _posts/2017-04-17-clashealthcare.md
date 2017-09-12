@@ -10,7 +10,7 @@ color: "blue"
 image: "images/CLAShealthcare/team.JPG" #should be ~350px tall
 excerpt: CLAS Healthcare partnered with Microsoft to build a medical referral and appointment booking chatbot for Hue Family Medical Centre. This is one of the first chatbots of its kind and is a scalable solution for other clinics. 
 language: English
-verticals: [Healthcare]
+verticals: [Health]
 geolocation: [Singapore]
 ---
 

@@ -5,12 +5,12 @@ author: "Il Seok Oh, Hyewon Ryu"
 author-link: "http://ilseokoh.com"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-05-26
-categories: [Bot Framework,Azure Search,Azure Cosmos DB,Azure Web App,Cognitive Services-LUIS]
+categories: [Bot Framework,Azure App Service,Cognitive Services]
 color: "blue"
 image: "images/jinair/jinair-title.jpg" #should be ~350px tall
 excerpt: "Jin Air which is LCA in Korea built a chatbot service to make more effective customer support using Microsoft Bot Framework, Cognitive Service and Azure Search."
 language: [English]
-verticals: ["Transportation & Logistics"]
+verticals: [Logistics]
 geolocation: [Korea]
 permalink: "/2017-05-26-jinair-eng.html"
 ---

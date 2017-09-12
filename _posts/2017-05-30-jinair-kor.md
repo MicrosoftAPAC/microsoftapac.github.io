@@ -5,12 +5,12 @@ author: "오일석, 류혜원"
 author-link: "http://ilseokoh.com"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-05-26
-categories: [Bot Framework,Azure Search,Azure Cosmos DB,Azure Web App,Cognitive Services-LUIS]
+categories: [Bot Framework,Azure App Service,Cognitive Services]
 color: "blue"
 image: "images/jinair/jinair-title.jpg" #should be ~350px tall
 excerpt: "진에어는 고객지원을 더욱 효과적으로 하기위해 마이크로소프트 Bot Framework, 인지서비스를 사용하여 챗봇서비스를 구현했다."
 language: [Korean]
-verticals: ["Transportation & Logistics"]
+verticals: [Logistics]
 geolocation: [Korea]
 permalink: "/2017-05-26-jinair-kor.html"
 ---

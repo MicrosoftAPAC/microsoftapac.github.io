@@ -5,12 +5,12 @@ author: "Daisuke Inoue"
 author-link: "#"
 #author-image: "{{ site.baseurl }}/images/authors/daisukei.jpg"
 date:   2017-04-20
-categories: Xamarin
+categories: [Mobile Application Development with Xamarin]
 color: "blue"
 image: "images/SorimachiGiken/1allmember.png" #should be ~350px tall
 excerpt: New versions of the POS and CRM packages in operation on-premise optimized for Xamarin and Microsoft Azure PaaS.
 language: English
-verticals:  Retail
+verticals:  Retail & Consumer Goods
 geolocation: [Japan]
 ---
 [Sorimachi Giken Co., Ltd.](http://www.s-giken.co.jp/corpinfo/) has Xamarin.Native and WPF resources and they started to consider the implementation of UWP app. However, promptly providing applications with native support for various platforms is becoming difficult due to the diverse range of OSes and devices available on the client side, such as iOS, Windows, and Android. So they reconsidered moving them into Xamarin.Forms. Rebuilding with Xamarin.Forms, they also challenge PCL code sharing among iOS, Android and Windows. About three years ago, they had already considered Xamarin.Forms. However, as Xamarin.Forms at that time was so weak, they stopped it and they implemented with Xamarin Native. But they started reconsidering Xamarin.Forms because they admitted it has well-evolved enough to use.

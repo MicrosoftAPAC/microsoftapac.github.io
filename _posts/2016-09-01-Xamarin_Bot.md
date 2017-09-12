@@ -5,7 +5,7 @@ author: "Alyssa Ong, James Lee, and Ujjwal Kumar"
 #author-link: "#"
 #author-image: "{{site.baseurl}}/images/authors/Ujjwal.jpg"
 date: 2017-05-24
-categories: [Xamarin]
+categories: [Mobile Application Development with Xamarin]
 color: "blue"
 image: "images/Powerupcloud_Xamarin/feat_XamarinReceptionist.png" 
 excerpt: This article and project is about building a Xamarin-based cross-platform app and integrating it with Cognitive Services and a bot developed by using the Direct Line API from the Microsoft Bot Framework.

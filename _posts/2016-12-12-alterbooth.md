@@ -10,7 +10,7 @@ color: "blue"
 image: "images/alterbooth/logo.png" #should be ~350px tall
 excerpt: Microsoft and Alterbooth conducted a joint hackfest to introduce DevOps practices into Alterbooth's new sauce-ordering and customizing service.
 language: [English]
-verticals: [Technology, "Retail, Consumer Products & Services"]
+verticals: [Retail & Consumer Goods]
 geolocation: [Japan]
 ---
 

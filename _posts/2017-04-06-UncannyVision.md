@@ -10,7 +10,7 @@ color: "blue"
 image: "images/UncannyVision/UncannyVision3.png" #should be ~350px tall
 excerpt: In this IoT hackfest, Microsoft teamed up with Uncanny Vision to connect their smart surveillance camera solution to the Azure cloud. 
 language: English
-verticals: Security/Surveillance
+verticals: [Security]
 geolocation: [India]
 ---
 

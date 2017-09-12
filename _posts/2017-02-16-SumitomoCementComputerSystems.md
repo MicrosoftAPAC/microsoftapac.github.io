@@ -9,7 +9,7 @@ color: "blue"
 image: "images/2017-02-16-SumitomoCementComputerSystems/01-SystemArchitecture.png"
 excerpt: The remote-control system with very legacy device make new business scenario. Also, IoT Hub SDK flexibility make this thing so easy.
 language: [English]
-verticals: Manufacturing & Resources
+verticals: [Process Mfg & Resources]
 geolocation: [Japan]
 ---
 

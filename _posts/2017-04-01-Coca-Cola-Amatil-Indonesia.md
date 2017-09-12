@@ -8,7 +8,7 @@ color: "blue"
 image: "images/ccai/azure-iot-solution-architecture.png" #should be ~350px tall
 excerpt: Coca Cola Amatil Indonesia, a subsidiary of Coca Cola Amatil, one of the largest Coca Cola bottlers in the world, enhances their Production Line Quality Monitoring system by utilizing Azure IoT Hub, Azure Machine Learning and Microsoft R.
 language: [English]
-verticals: [Energy, Manufacturing & Resources, "Retail, Consumer Products & Services"]
+verticals: [Process Mfg & Resources, Retail & Consumer Goods]
 geolocation: [Indonesia]
 permalink: /ccai.html
 ---

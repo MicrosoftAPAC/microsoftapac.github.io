@@ -5,7 +5,7 @@ author: "Brijraj singh"
 author-link: "http://twitter.com/brijrajsingh"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-03-09
-categories: [Conversations as a Platform, Cognitive Services]
+categories: [Bot Framework, Cognitive Services]
 color: "blue"
 #image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
 excerpt: ReportBee (The next generation ReportCard service for schools) develops a  conversational bot to help school principals in tracking and monitoring performance of classes, students and teachers.

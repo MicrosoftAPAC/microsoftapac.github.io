@@ -10,7 +10,7 @@ color: "blue"
 image: "images/snapbizzpbie/snapbizzpbie14.png" #should be ~350px tall
 excerpt: Microsoft worked with SnapBizz to design, deploy, and render Power BI Embedded reports, reducing management time and enabling future cross-platform integration. 
 language: English
-verticals:  ["Retail, Consumer Products & Services"]
+verticals:  [Retail & Consumer Goods]
 geolocation: [India]
 ---
 

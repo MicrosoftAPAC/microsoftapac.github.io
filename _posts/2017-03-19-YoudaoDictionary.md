@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2017-03-19-YoudaoDictionary/certificate.png" #should be ~350px tall
 excerpt: Microsoft teamed up with NetEase Youdao to bring the popular dictionary app, Youdao Dictionary, to the Universal Windows Platform (UWP). 
 language: [English]
-verticals: [Communications/Media]
+verticals: [Telecommunications, Media & Cable]
 geolocation: China
 ---
 

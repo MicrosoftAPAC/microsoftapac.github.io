@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2017-05-01-hornil/hackfest.png" #should be ~350px tall
 excerpt: Hornil brings their graphic software technology, which is used by more than 400 million worldwide, to the Windows Store.
 language: [Korean]
-verticals: [Cross-Industry]
+verticals: [Retail & Consumer Goods, Entertainment]
 geolocation: [Korea]
 permalink: /hornil-kor.html
 ---

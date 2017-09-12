@@ -11,7 +11,7 @@ image: "images/2017-03-07-hogangnono/hackfest02.png" #should be ~350px tall
 excerpt: Hogangnono, a top real estate startup, and Microsoft improve real estate recommendations to captivate more app users.
 language: [Korean]
 geolocation: [Korea]
-verticals: [Real Estate]
+verticals: [Facility Management]
 ---
 
 Key technologies used  

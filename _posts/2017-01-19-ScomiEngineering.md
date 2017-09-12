@@ -10,7 +10,7 @@ color: "blue"
 image: "images/ScomiEngineering/Portal1.png" #should be ~350px tall
 excerpt: Scomi Engineering developed Live Monorail monitoring using combination of open source technologies and .NET on Microsoft IoT platform 
 language: [English]
-verticals: [Transportation & Logistics]
+verticals: [Logistics]
 geolocation: [Malaysia]
 permalink: /scomiengineeringiot.html
 ---

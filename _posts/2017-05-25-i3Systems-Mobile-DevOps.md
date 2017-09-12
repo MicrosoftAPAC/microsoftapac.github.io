@@ -5,12 +5,12 @@ author: "Tatsuhiko Tanaka"
 author-link: "https://blogs.msdn.microsoft.com/ttanaka/"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-05-25
-categories: [Mobile DevOps]
+categories: [DevOps]
 color: "blue"
 image: "images/i3systems_mdo/ArchitectureDesign.jpg" #should be ~350px tall
 excerpt: It took 9 months to develop and launch the original CLOMO MDM Agent app but this Xamarin-based app and Mobile DevOps took only in less than 2 months with 10 times more than the number of functions from the first launch. Release cycle is faster by over 400% and the volume of the source code and engineering productivity are improved by 4,000%.
 language: [English]
-verticals: [Other]
+verticals: [Professional Services]
 geolocation: [Japan]
 ---
 

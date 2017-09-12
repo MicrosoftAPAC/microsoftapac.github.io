@@ -10,7 +10,7 @@ color: "blue"
 image: "images/transcode/p11powerbimap.jpg" #should be ~350px tall
 excerpt: Transcode Co., Ltd., a fast growing “Intelligent Transportation Services” startup in Thailand, worked with Microsoft to re-architect its “GTaxi” smart taxi platform, gaining scalability via DocumentDB, better system management with Node.JS and improving on taxi service quality insights with PowerBI.  All with minimum impact to its existing Android developer team.
 language: [English]
-verticals: Transportation & Logistics
+verticals: Logistics
 geolocation: [Thailand]
 ---
 

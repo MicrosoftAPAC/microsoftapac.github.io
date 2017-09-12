@@ -5,12 +5,12 @@ author: "Alyssa Ong"
 author-link: "https://twitter.com/alyssaong1337"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-05-16
-categories: [Cognitive Services, Azure Virtual Machine]
+categories: [Cognitive Services]
 color: "blue"
 image: "images/connectedlife/SIParchi.PNG" #should be ~350px tall
 excerpt: Connecting a VoIP capable device via SIP to a voice-controlled intelligent agent using Microsoft Cognitive Services.
 language: [English]
-verticals: [Healthcare]
+verticals: [Health]
 geolocation: [Singapore]
 ---
 

@@ -5,12 +5,12 @@ author: "William Dam, Delon Yau"
 #author-link: "Add URL for author's Twitter account here"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date: 2017-03-26
-categories: [Bot Framework,Cognitive Services]
+categories: [Bot Framework, Cognitive Services]
 color: "blue"
 image: "images/CoreMinderImages/HighLevelArchDigitalFormat.JPG" #should be ~350px tall
 excerpt: Microsoft works with CoreMinder to extend its CRM Ecommerce platform solution with CaaP
 language: English
-verticals: Retail, Consumer Products & Services
+verticals: Retail & Consumer Goods
 geolocation: [Hong Kong]
 ---
  

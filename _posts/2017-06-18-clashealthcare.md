@@ -10,7 +10,7 @@ color: "blue"
 image: "images/claspowerbi/archi.PNG" #should be ~350px tall
 excerpt: CLAS Healthcare partnered with Microsoft to turn their data into visuals using Power BI to demonstrate results to their stakeholders and understand market trends needed for strategic planning. 
 language: English
-verticals: [Healthcare]
+verticals: [Health]
 geolocation: [Vietnam]
 ---
 
