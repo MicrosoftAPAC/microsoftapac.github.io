@@ -10,7 +10,7 @@ color: "blue"
 image: "images/2017-08-01-devsisters/tile-devsisters-architecture.png" #must be 440px wide
 excerpt: Devsisters, top game development company, and Microsoft hackfest to improve predictive analytics for more captivating game users.
 language: [Korean]
-verticals: [Gaming]
+verticals: [Entertainment]
 geolocation: [Korea]
 ---
 
