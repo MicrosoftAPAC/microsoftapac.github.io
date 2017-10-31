@@ -11,7 +11,7 @@ image: "images/2017-08-01-devsisters/tile-devsisters-architecture.png" #must be 
 excerpt: Devsisters, a top game development company, and Microsoft worked together in a hackfest to improve predictive analytics for its games and customers.
 language: [English]
 verticals: [Entertainment]
-geolocation: [Asia]
+geolocation: [Korea]
 ---
 
 Devsisters, a leading game publisher and market leader in game services, worked with Microsoft in a hackfest to build customized services for game customers, customer churn predictions, and billing predictions.   

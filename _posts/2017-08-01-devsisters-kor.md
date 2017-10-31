@@ -5,20 +5,20 @@ author: "Dae Woo Kim, Hyewon Ryu"
 #author-link: "Add author's Twitter URL here"
 #author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
 date:   2017-08-01
-categories: [Machine Learning], [Azure Functions]
+categories: [Machine Learning, Azure Functions]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+image: "images/2017-08-01-devsisters/tile-devsisters-architecture.png" #must be 440px wide
 excerpt: Devsisters, top game development company, and Microsoft hackfest to improve predictive analytics for more captivating game users.
 language: [Korean]
-verticals: [Game]
+verticals: [Gaming]
+geolocation: [Korea]
+---
 
 Key technologies used  
 Azure Functions  
 Azure Machine Learning  
 Azure Storage Blob  
 Azure Redis Cache  
-
----
 
 데브시스터즈는 게임 서비스의 마켓 리더로 2009년부터 다양한 모바일 게임들을 발표한 대표 게임 제작사입니다. 데브시스터즈는 게임 고객 대상 맞춤 서비스와 이탈 및 결재 예측 서비스를 구축하기 위해 마이크로소프트와 hackfest를 진행했습니다.  
 
